@@ -1,12 +1,10 @@
 /* eslint-disable-next-line */
-export interface ChakraProps {}
+import { Button } from '@chakra-ui/react';
 
-export function Chakra(props: ChakraProps) {
-  return (
-    <div>
-      <h1>Welcome to Chakra!</h1>
-    </div>
-  );
+export interface ChakraLibProps {}
+
+export function ChakraLib(props: ChakraLibProps) {
+  return <Button color="blue">Button from ChakraLib</Button>;
 }
 
-export default Chakra;
+export default ChakraLib;

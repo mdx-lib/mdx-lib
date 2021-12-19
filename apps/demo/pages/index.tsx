@@ -1,5 +1,7 @@
+import { ChakraLib } from '@mdx-lib/chakra';
+
 export function Index() {
-  return <div>Hello</div>;
+  return <ChakraLib>Hello</ChakraLib>;
 }
 
 export default Index;
