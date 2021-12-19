@@ -1,0 +1,43 @@
+{
+  "root": "libs/chakra",
+  "sourceRoot": "libs/chakra/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/chakra",
+        "tsConfig": "libs/chakra/tsconfig.lib.json",
+        "project": "libs/chakra/package.json",
+        "entryFile": "libs/chakra/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "libs/chakra/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/chakra/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/chakra"],
+      "options": {
+        "jestConfig": "libs/chakra/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
