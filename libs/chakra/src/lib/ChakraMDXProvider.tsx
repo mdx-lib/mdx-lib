@@ -8,14 +8,16 @@ import { chakra } from '@chakra-ui/react';
 
 const components = {
   // img: ResponsiveImage,
-  h1: (props) => <chakra.h1 apply="mdx.h1" {...props} fontSize="5xl" />,
+  h1: (props: unknown) => (
+    <chakra.h1 apply="mdx.h1" {...props} fontSize="5xl" />
+  ),
   // h2: Heading.H2,
   // p: Text,
   // code: Pre,
   // inlineCode: Code,
 };
 
-export const ChakraMDXProvider = (props) => {
+export const ChakraMDXProvider = (props: any) => {
   return (
     <MDXProvider components={components}>
       <main {...props} />
