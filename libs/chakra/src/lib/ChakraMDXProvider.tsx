@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react';
-import { chakra } from '@chakra-ui/react';
+import { chakra, Alert } from '@chakra-ui/react';
 
 // import Image from 'next/image'
 // const ResponsiveImage = (props) => (
@@ -14,7 +14,21 @@ const components = {
   h4: (props: unknown) => <chakra.h4 {...props} fontSize="2xl" />,
   h5: (props: unknown) => <chakra.h5 {...props} fontSize="xl" />,
   p: (props: unknown) => <chakra.p {...props} fontSize="md" />,
-  // code: Pre,
+  ul: (props: unknown) => <chakra.ul {...props} mt={'1.5rem'} ml={'1.25rem'} />,
+  ol: (props: unknown) => <chakra.ol {...props} mt={'1.5rem'} ml={'1.25rem'} />,
+  li: (props: unknown) => <chakra.li pb="4px" {...props} />,
+  blockquote: (props: unknown) => (
+    <Alert
+      mt="4"
+      role="none"
+      status="warning"
+      variant="left-accent"
+      as="blockquote"
+      rounded="4px"
+      my="1.5rem"
+      {...props}
+    />
+  ),
   // inlineCode: Code,
 };
 
