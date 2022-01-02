@@ -17,7 +17,6 @@ export const MDXComponents = {
   h2: (props: unknown) => <LinkedHeading apply="mdx.h2" {...props} />,
   h3: (props: unknown) => <LinkedHeading as="h3" apply="mdx.h3" {...props} />,
   h4: (props: unknown) => <LinkedHeading as="h4" apply="mdx.h4" {...props} />,
-  h5: (props: unknown) => <LinkedHeading as="h5" apply="mdx.h5" {...props} />,
   hr: (props: unknown) => <chakra.hr apply="mdx.hr" {...props} />,
   strong: (props: unknown) => (
     <Box as="strong" fontWeight="semibold" {...props} />
