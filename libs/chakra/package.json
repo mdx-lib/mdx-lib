@@ -1,4 +1,15 @@
 {
   "name": "@mdx-lib/chakra",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "formik": "^2.2.9",
+    "prism-react-renderer": "^1.2.1",
+    "react-icons": "^4.3.1",
+    "react-live": "^2.3.0",
+    "react-lorem-component": "^0.13.0",
+    "react-player": "^2.9.0",
+    "react-spinners": "^0.11.0",
+    "react-table": "^7.7.0"
+  }
 }
