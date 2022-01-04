@@ -9,7 +9,7 @@
   },
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "1.7.3",
+    "@chakra-ui/react": "1.7.4",
     "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
     "@mdx-js/loader": "1.6.22",
