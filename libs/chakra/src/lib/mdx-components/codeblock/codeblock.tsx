@@ -5,7 +5,7 @@ import CodeContainer from './code-container'
 import CopyButton from './copy-button'
 import Highlight from './highlight'
 
-function CodeBlock(props) {
+function CodeBlock(props: any) {
   const { className, children, viewlines, ln } = props.children.props
 
   const language = className?.replace(/language-/, '')
