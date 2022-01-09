@@ -2,6 +2,6 @@ module.exports = {
   monorepo: {
     mainVersionFile: 'package.json',
     packagesToBump: ['libs/*'],
-    packagesToPublish: ['libs/*'],
+    packagesToPublish: ['libs/chakra'],
   },
 }

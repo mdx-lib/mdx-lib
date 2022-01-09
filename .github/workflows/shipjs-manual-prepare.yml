@@ -29,7 +29,7 @@ jobs:
       - run: npm run release -- --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_INCOMING_HOOK: ${{ secrets.SLACK_INCOMING_HOOK }}
+          # SLACK_INCOMING_HOOK: ${{ secrets.SLACK_INCOMING_HOOK }}
 
   create_done_comment:
     if: success()
