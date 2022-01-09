@@ -1,6 +1,9 @@
 {
   "name": "@mdx-lib/chakra",
   "version": "0.0.1",
+  "scripts": {
+    "bootstrap": "yarn install"
+  },
   "dependencies": {
     "prism-react-renderer": "^1.2.1",
     "react-player": "^2.9.0"
