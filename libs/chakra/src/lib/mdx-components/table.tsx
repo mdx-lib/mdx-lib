@@ -1,13 +1,13 @@
 import { chakra, useColorModeValue } from '@chakra-ui/react'
 import * as React from 'react'
 
-export const Table = (props) => (
+export const Table = (props: unknown) => (
   <chakra.div overflowX='auto'>
     <chakra.table textAlign='left' mt='32px' width='full' {...props} />
   </chakra.div>
 )
 
-export const THead = (props) => (
+export const THead = (props: unknown) => (
   <chakra.th
     bg={useColorModeValue('gray.50', 'whiteAlpha.100')}
     fontWeight='semibold'
@@ -17,7 +17,7 @@ export const THead = (props) => (
   />
 )
 
-export const TData = (props) => (
+export const TData = (props: unknown) => (
   <chakra.td
     p={2}
     borderTopWidth='1px'

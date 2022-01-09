@@ -10,17 +10,17 @@ import { liveEditorStyle } from './styles'
 const RE = /{([\d,-]+)}/
 
 const calculateLinesToHighlight = (meta: string) => {
-  if (!RE.test(meta)) {
-    return () => false
-  }
-  const lineNumbers = RE.exec(meta)[1]
+  const exec = RE.exec(meta)
+  if (!exec) return () => false
+
+  const lineNumbers = exec[1]
     .split(`,`)
     .map((v) => v.split(`-`).map((x) => parseInt(x, 10)))
 
   return (index: number) => {
     const lineNumber = index + 1
     const inRange = lineNumbers.some(([start, end]) =>
-      end ? lineNumber >= start && lineNumber <= end : lineNumber === start,
+      end ? lineNumber >= start && lineNumber <= end : lineNumber === start
     )
     return inRange
   }
@@ -41,7 +41,7 @@ function Highlight({
   showLines,
   ...props
 }: HighlightProps) {
-  const shouldHighlightLine = calculateLinesToHighlight(metastring)
+  const shouldHighlightLine = calculateLinesToHighlight(metastring as string)
 
   return (
     <BaseHighlight
