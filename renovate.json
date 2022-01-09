@@ -1,4 +1,8 @@
 {
+  "schedule": "every weekend",
+  "minor": {
+    "groupName": "all dependencies"
+  },
   "extends": [
     "config:base",
     ":semanticCommits"
