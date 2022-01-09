@@ -1,5 +1,5 @@
 {
-  "npmScope": "react",
+  "npmScope": "mdx-lib",
   "affected": {
     "defaultBase": "main"
   },
