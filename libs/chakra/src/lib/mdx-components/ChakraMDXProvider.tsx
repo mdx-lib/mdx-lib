@@ -19,6 +19,7 @@ const MDXComponents = {
     <Box as='strong' fontWeight='semibold' {...props} />
   ),
   code: InlineCode,
+  // eslint-disable-next-line
   pre: (props: any) => {
     if (typeof props.children === 'string') return <Pre {...props} />
     return <CodeBlock {...props} />
@@ -55,9 +56,9 @@ const MDXComponents = {
   AspectRatio,
 }
 
-export const ChakraMDXProvider = (props: any) => {
+export const ChakraMDXProvider = (props: React.PropsWithChildren<unknown>) => {
   return (
-    <MDXProvider components={MDXComponents as any}>
+    <MDXProvider components={MDXComponents}>
       <main {...props} />
     </MDXProvider>
   )
