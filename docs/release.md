@@ -1,6 +1,10 @@
 # How to release
 
-- yarn release --dry-run
+- create release PR
+  ```shell
+  yarn release --dry-run
+  yarn release
+  ```
 - check auto PR by shipjs
-- update changelog.md
+- update changelog.md (and push it)
 - merge pull request
