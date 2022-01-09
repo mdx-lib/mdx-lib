@@ -1,7 +1,7 @@
-import { ChakraLib } from '@mdx-lib/chakra';
+import { ChakraLib } from '@mdx-lib/chakra'
 
 export function Index() {
-  return <ChakraLib>Hello</ChakraLib>;
+  return <ChakraLib />
 }
 
-export default Index;
+export default Index
