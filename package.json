@@ -6,7 +6,8 @@
     "bootstrap": "nx run-many --target=bootstrap --all",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "lint": "nx run-many --target=lint --all"
   },
   "private": true,
   "dependencies": {
