@@ -1,6 +1,6 @@
 {
   "name": "@mdx-lib/chakra",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "scripts": {
     "bootstrap": "yarn install"
   },

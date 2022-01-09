@@ -39,3 +39,6 @@ testem.log
 .DS_Store
 Thumbs.db
 /TODO.txt
+
+# env
+.env

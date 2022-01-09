@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "mdx-lib",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,8 @@
     "build": "nx build",
     "test": "nx run-many --target=test --all",
     "lint": "nx run-many --target=lint --all",
-    "lint:fix": "nx run-many --target=lint:fix --all"
+    "lint:fix": "nx run-many --target=lint:fix --all",
+    "release": "shipjs prepare"
   },
   "private": true,
   "dependencies": {
@@ -58,6 +59,7 @@
     "jest": "27.4.7",
     "prettier": "2.5.1",
     "react-test-renderer": "17.0.2",
+    "shipjs": "0.24.1",
     "ts-jest": "27.1.2",
     "typescript": "4.5.4"
   }
