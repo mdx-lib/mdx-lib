@@ -1,11 +1,25 @@
 {
   "name": "@mdx-lib/chakra",
   "version": "0.0.1-alpha.1",
+  "description": "A collection of libraries to make MDX more convenient",
   "scripts": {
     "bootstrap": "yarn install"
   },
   "dependencies": {
     "prism-react-renderer": "1.2.1",
     "react-player": "2.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdx-lib/mdx-lib.git"
+  },
+  "keywords": [
+    "mdx"
+  ],
+  "author": "toaru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdx-lib/mdx-lib/issues"
+  },
+  "homepage": "https://github.com/mdx-lib/mdx-lib#readme"
 }
