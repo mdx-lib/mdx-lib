@@ -1,12 +1,30 @@
 # Chakra-ui related libs
 
 ## Setup
-Add package
+### Add package
 ```shell
 yarn add @mdx-lib/chakra
 ```
 
-Add MDX provider
+### Confirm & Add peerDependencies
+on your machine, check package.json
+```json
+{
+  "name": "@mdx-lib/chakra",
+  "peerDependencies": {
+    "react": "17.0.2",
+    "@mdx-js/react": "^1.6.22",
+    "@chakra-ui/react": "1.7.4"
+  }
+}
+```
+
+```shell
+# or exec below commadn
+npm info @mdx-lib/chakra@YOUR_VERSION peerDependencies
+```
+
+### Add MDX provider
 ```tsx
 import { ChakraMDXProvider } from '@mdx-lib/chakra'
 

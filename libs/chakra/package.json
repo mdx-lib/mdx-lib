@@ -10,6 +10,9 @@
     "prism-react-renderer": "1.2.1",
     "react-player": "2.9.0"
   },
+  "peerDependencies": {
+    "@mdx-js/react": "^1.6.22"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mdx-lib/mdx-lib.git"
