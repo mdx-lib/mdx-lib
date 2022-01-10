@@ -1,7 +1,7 @@
 import { Button } from '@chakra-ui/react'
 
-export function ChakraLib() {
+export function ChakraButtonSample() {
   return <Button color='blue'>Button from ChakraLib</Button>
 }
 
-export default ChakraLib
+export default ChakraButtonSample
