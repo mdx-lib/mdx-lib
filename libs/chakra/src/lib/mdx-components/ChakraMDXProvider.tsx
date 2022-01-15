@@ -9,6 +9,8 @@ import * as React from 'react'
 import CodeBlock from './codeblock/codeblock'
 import { MDXProvider } from '@mdx-js/react'
 
+// NOTE: The following code was created with reference to https://github.com/chakra-ui/chakra-ui-docs
+// Thanks to the people who made the code :)
 const MDXComponents = {
   h1: (props: unknown) => <chakra.h1 apply='mdx.h1' {...props} />,
   h2: (props: unknown) => <LinkedHeading apply='mdx.h2' {...props} />,
