@@ -36,3 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 ```
+
+### NOTE
+ChakraMDXProvider was created with reference to [chakra-ui-docs](https://github.com/chakra-ui/chakra-ui-docs).  
+I am deeply grateful to the people who made the code.
