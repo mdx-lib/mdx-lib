@@ -1,0 +1,23 @@
+{
+  "root": "libs/mdx-samples",
+  "sourceRoot": "libs/mdx-samples/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/mdx-samples/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/mdx-samples"],
+      "options": {
+        "jestConfig": "libs/mdx-samples/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

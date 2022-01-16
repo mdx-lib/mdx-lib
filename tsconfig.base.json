@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mdx-lib/chakra": ["libs/chakra/src/index.ts"]
+      "@mdx-lib/chakra": ["libs/chakra/src/index.ts"],
+      "@mdx-lib/mdx-samples": ["libs/mdx-samples/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

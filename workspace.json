@@ -3,6 +3,7 @@
   "projects": {
     "chakra": "libs/chakra",
     "demo": "apps/demo",
-    "demo-e2e": "apps/demo-e2e"
+    "demo-e2e": "apps/demo-e2e",
+    "mdx-samples": "libs/mdx-samples"
   }
 }
