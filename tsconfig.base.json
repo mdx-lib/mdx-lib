@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@mdx-lib/chakra": ["libs/chakra/src/index.ts"],
-      "@mdx-lib/mdx-samples": ["libs/mdx-samples/src/index.ts"]
+      "@mdx-lib/mdx-samples/*": ["libs/mdx-samples/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

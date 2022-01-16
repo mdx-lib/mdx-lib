@@ -1,7 +1,7 @@
-import { ChakraButtonSample } from '@mdx-lib/chakra'
+import Sample from '@mdx-lib/mdx-samples/sample.mdx'
 
 export function Index() {
-  return <ChakraButtonSample />
+  return <Sample />
 }
 
 export default Index
