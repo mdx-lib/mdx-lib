@@ -20,7 +20,7 @@ on your machine, check package.json
 ```
 
 ```shell
-# or exec below commadn
+# or exec below command
 npm info @mdx-lib/chakra@YOUR_VERSION peerDependencies
 ```
 
