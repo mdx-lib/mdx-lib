@@ -28,4 +28,4 @@ jobs:
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
         run: |
-          yarn run reg-suit run --test
+          yarn test:vt:run
