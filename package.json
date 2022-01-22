@@ -8,6 +8,7 @@
     "build": "nx build",
     "test": "nx run-many --target=test --all",
     "test:e2e": "nx e2e demo-e2e",
+    "test:vt:run": "reg-suit run",
     "test:vt:show": "http-server .reg",
     "lint": "nx run-many --target=lint --all",
     "lint:fix": "nx run-many --target=lint:fix --all",
