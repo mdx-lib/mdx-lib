@@ -16,7 +16,8 @@
       "clientId": "MzG2tDA1Mzc0189NqdDNyUzSNzIyNTIxMDOGCQAA"
     },
     "reg-publish-gcs-plugin": {
-      "bucketName": "mdx-lib.appspot.com"
+      "bucketName": "mdx-lib.appspot.com",
+      "pathPrefix": "reg-suit"
     }
   }
 }
