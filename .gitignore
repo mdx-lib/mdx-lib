@@ -42,4 +42,5 @@ Thumbs.db
 
 # env
 .env
+.envs
 .reg
