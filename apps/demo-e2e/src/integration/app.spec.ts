@@ -1,13 +1,13 @@
-import { getGreeting } from '../support/app.po';
-
 describe('demo', () => {
-  beforeEach(() => cy.visit('/'));
+  beforeEach(() => cy.visit('/sample'))
 
-  it('should display welcome message', () => {
-    // Custom command example, see `../support/commands.ts` file
-    cy.login('my-email@something.com', 'myPassword');
+  it('visual regression test', () => {
+    cy.visit('/sample').screenshot('sample')
 
-    // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome demo');
-  });
-});
+    // // Custom command example, see `../support/commands.ts` file
+    // cy.login('my-email@something.com', 'myPassword');
+    //
+    // // Function helper example, see `../support/app.po.ts` file
+    // getGreeting().contains('Welcome demo');
+  })
+})
