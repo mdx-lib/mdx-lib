@@ -17,17 +17,13 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install, build, and test
+      - name: build and create the current snapshot
         run: |
-          yarn install
-        env:
-          CI: true
+          yarn bootstrap
+          yarn test:e2e
       - name: workaround for detached HEAD
         run: |
           git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
-      - name: create the current snapshot
-        run: |
-          yarn test:e2e
       - name: run reg
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
