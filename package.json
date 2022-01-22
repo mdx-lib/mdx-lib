@@ -7,6 +7,9 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx run-many --target=test --all",
+    "test:e2e": "nx e2e demo-e2e",
+    "test:vt:run": "reg-suit run",
+    "test:vt:show": "http-server .reg",
     "lint": "nx run-many --target=lint --all",
     "lint:fix": "nx run-many --target=lint:fix --all",
     "release": "shipjs prepare"
@@ -59,6 +62,10 @@
     "jest": "27.4.7",
     "prettier": "2.5.1",
     "react-test-renderer": "17.0.2",
+    "reg-keygen-git-hash-plugin": "^0.11.1",
+    "reg-notify-github-plugin": "^0.11.1",
+    "reg-publish-gcs-plugin": "^0.11.1",
+    "reg-suit": "^0.11.1",
     "shipjs": "0.24.1",
     "ts-jest": "27.1.3",
     "typescript": "4.5.5"
