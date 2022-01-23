@@ -1,7 +1,7 @@
 {
   "core": {
     "workingDir": ".reg",
-    "actualDir": "apps/demo-e2e/src/screenshots",
+    "actualDir": "dist/cypress/apps/demo-e2e/screenshots",
     "thresholdRate": 0,
     "addIgnore": false,
     "ximgdiff": {
