@@ -12670,17 +12670,17 @@ reg-gh-app-interface@^1.2.0:
   resolved "https://registry.npmjs.org/reg-gh-app-interface/-/reg-gh-app-interface-1.2.0.tgz"
   integrity sha512-jgEH91LWOYf7HfoO9HfX2aM71CHZs/V6Yb3yEbECK9CB69an4yNdx24l8dBUdKywesnhE/IzJ3AfOd4a84L0Og==
 
-reg-keygen-git-hash-plugin@^0.11.1:
+reg-keygen-git-hash-plugin@0.11.1:
   version "0.11.1"
-  resolved "https://registry.npmjs.org/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.11.1.tgz"
+  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.11.1.tgz#9fa97ac83672fe1c2d16094e07e571eb7f218b36"
   integrity sha512-HfImHay9u4jM2rMsKEzLgfoB+LDnfm1ISBwucw+RLNv3nxDUpKKczyrIa+q2BUPVINBXDKQThGj5owB14LLbRA==
   dependencies:
     reg-suit-util "^0.11.0"
     shell-escape "^0.2.0"
 
-reg-notify-github-plugin@^0.11.1:
+reg-notify-github-plugin@0.11.1:
   version "0.11.1"
-  resolved "https://registry.npmjs.org/reg-notify-github-plugin/-/reg-notify-github-plugin-0.11.1.tgz"
+  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.11.1.tgz#b839d55030d7a0ddcea26f02c2eff84f25fbae09"
   integrity sha512-/NpNZnn480A8SQdbGtRr7Y7cpxRTJpmkOWqgNswMo5Y8kElK53BIvlimBE0X3i4jv85EywI6FGl/nICzDKhh1Q==
   dependencies:
     open "^8.0.0"
@@ -12690,9 +12690,9 @@ reg-notify-github-plugin@^0.11.1:
     request-promise "^4.2.6"
     tiny-commit-walker "^1.1.2"
 
-reg-publish-gcs-plugin@^0.11.1:
+reg-publish-gcs-plugin@0.11.1:
   version "0.11.1"
-  resolved "https://registry.npmjs.org/reg-publish-gcs-plugin/-/reg-publish-gcs-plugin-0.11.1.tgz"
+  resolved "https://registry.yarnpkg.com/reg-publish-gcs-plugin/-/reg-publish-gcs-plugin-0.11.1.tgz#fbf3f5d7ccd07a555ed9ef1e268f5c138e745fd5"
   integrity sha512-7lc40b7VJReGhV275SlxeJinrVjnIrCa5dXCcgYlKQUVDoMc9MiH3e9jAbv83Wp+Takks30ovhV/uVPIhZ8GYQ==
   dependencies:
     "@google-cloud/storage" "^5.3.0"
@@ -12730,9 +12730,9 @@ reg-suit-util@^0.11.0:
     mime-types "^2.1.27"
     mkdirp "^1.0.4"
 
-reg-suit@^0.11.1:
+reg-suit@0.11.1:
   version "0.11.1"
-  resolved "https://registry.npmjs.org/reg-suit/-/reg-suit-0.11.1.tgz"
+  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.11.1.tgz#2bc7180873cf793724825eb492e5396a2d95daa3"
   integrity sha512-tGCPEoQhHcUn4oZGj5nu26yaFEpksPHUwGPoKpBxSV5ldmwS/zY13KyJZaetlZh/IV7HTxLP/i9TXBlhzc3QWw==
   dependencies:
     cp-file "9.1.0"
