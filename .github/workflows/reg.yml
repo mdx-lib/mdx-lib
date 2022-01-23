@@ -5,6 +5,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    # TODO: update to workload id federation
+    # for auth step
+      # permissions:
+      #   contents: 'read'
+      #   id-token: 'write'
+
     strategy:
       matrix:
         node-version: [ 14.x ]
@@ -24,8 +30,21 @@ jobs:
       - name: workaround for detached HEAD
         run: |
           git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
+
+
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v0'
+        with:
+          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+
+        # TODO: update to workload id federation
+        # with:
+          # token_format: 'access_token'
+          # access_token_lifetime: '300s'
+          # workload_identity_provider: ${{ secrets.GOOGLE_IDENTITY_PROVIDER }}
+          # service_account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_FOR_REG_SUIT_CI }}
+
       - name: run reg
-        env:
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
         run: |
           yarn test:vt:run
