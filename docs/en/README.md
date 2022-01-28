@@ -44,3 +44,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 # Install all dependencies in monorepo
 yarn bootstrap
 ```
+
+# Sample Image
+<p align="center"><img src="../images/sample.png" alt="mdx-lib"></p>
