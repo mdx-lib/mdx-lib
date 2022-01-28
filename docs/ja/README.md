@@ -44,3 +44,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 # モノレポ内の全ての依存パッケージのインストール
 yarn bootstrap
 ```
+
+# Sample Image
+<p align="center"><img src="../images/sample.png" alt="mdx-lib"></p>
