@@ -1,2 +1,1 @@
-export * from './lib/chakra';
-export * from './lib/mdx-components';
+export * from './lib/mdx-components'
