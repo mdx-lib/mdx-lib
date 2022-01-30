@@ -26,7 +26,7 @@ jobs:
       - name: build and create the current snapshot
         run: |
           yarn bootstrap
-          yarn test:e2e
+          yarn test:e2e:with-build
       - name: workaround for detached HEAD
         run: |
           git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
