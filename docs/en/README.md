@@ -47,3 +47,7 @@ yarn bootstrap
 
 # Sample Image
 <p align="center"><img src="../images/sample.png" alt="mdx-lib"></p>
+
+### NOTE
+ChakraMDXProvider was created with reference to [chakra-ui-docs](https://github.com/chakra-ui/chakra-ui-docs).  
+Thanks to the people who made the code.
