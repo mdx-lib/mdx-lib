@@ -29,7 +29,8 @@ jobs:
         run: |
           git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
 
-
+      # export GOOGLE_APPLICATION_CREDENTIALS (1 hour lifetime)
+      # https://github.com/google-github-actions/auth/blob/736e11de4059a49cee3b8430b4341308243573e3/src/main.ts#L166-L168
       - id: 'auth'
         name: 'Authenticate to Google Cloud'
         uses: 'google-github-actions/auth@v0'
