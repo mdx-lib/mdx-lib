@@ -1,8 +1,8 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import { ChakraProvider } from '@chakra-ui/react';
-import { ChakraMDXProvider } from '@mdx-lib/chakra';
-import theme from '../theme';
+import { AppProps } from 'next/app'
+import Head from 'next/head'
+import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraMDXProvider } from '@mdx-lib/chakra'
+import theme from '../theme'
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -16,7 +16,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
         </ChakraMDXProvider>
       </ChakraProvider>
     </>
-  );
+  )
 }
 
-export default CustomApp;
+export default CustomApp

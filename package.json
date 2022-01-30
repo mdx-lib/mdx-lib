@@ -15,6 +15,7 @@
     "test:vt:show": "http-server .reg",
     "lint": "nx run-many --target=lint --all",
     "lint:fix": "nx run-many --target=lint:fix --all",
+    "format": "nx format:write --all",
     "release": "shipjs prepare"
   },
   "private": true,
