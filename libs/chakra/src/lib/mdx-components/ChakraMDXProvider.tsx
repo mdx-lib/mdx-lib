@@ -60,6 +60,7 @@ const MDXComponents = {
 
 export const ChakraMDXProvider = (props: React.PropsWithChildren<unknown>) => {
   return (
+    // @ts-ignore
     <MDXProvider components={MDXComponents}>
       <main {...props} />
     </MDXProvider>
