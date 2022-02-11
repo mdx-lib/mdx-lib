@@ -1,7 +1,7 @@
 describe('demo', () => {
   it('visual regression test', () => {
     // eslint-disable-next-line cypress/no-unnecessary-waiting
-    cy.visit('/').wait(3000).screenshot('index')
+    cy.visit('/').screenshot('index')
 
     // // Custom command example, see `../support/commands.ts` file
     // cy.login('my-email@something.com', 'myPassword');
