@@ -3,6 +3,7 @@ const withNx = require('@nrwl/next/plugins/with-nx')
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
   options: {
+    // TODO: when esm available in next.config.js, add remark-gfm as plugin
     remarkPlugins: [],
     rehypePlugins: [],
     providerImportSource: '@mdx-js/react',
