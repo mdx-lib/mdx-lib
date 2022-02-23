@@ -7,11 +7,11 @@
     "bootstrap": "yarn install"
   },
   "dependencies": {
-    "prism-react-renderer": "1.3.1",
-    "react-player": "2.9.0"
+    "prism-react-renderer": "1.3.1"
   },
   "peerDependencies": {
-    "@mdx-js/react": "^2.0.0"
+    "@mdx-js/react": "^2.0.0",
+    "react-player": "2.9.0"
   },
   "repository": {
     "type": "git",
