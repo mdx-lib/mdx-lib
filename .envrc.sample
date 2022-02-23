@@ -1,1 +1,2 @@
-export GOOGLE_APPLICATION_CREDENTIALS=.envs/[YOUR_FILE].json
+# If you don't run reg-suit publish locally, you don't need the following env
+# export GOOGLE_APPLICATION_CREDENTIALS=.envs/[YOUR_FILE].json

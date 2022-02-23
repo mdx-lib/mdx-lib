@@ -1,12 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const withNx = require('@nrwl/next/plugins/with-nx');
+const withNx = require('@nrwl/next/plugins/with-nx')
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
   options: {
+    // TODO: when esm available in next.config.js, add remark-gfm as plugin
     remarkPlugins: [],
     rehypePlugins: [],
+    providerImportSource: '@mdx-js/react',
   },
-});
+})
 
 /**
  * @type {import('@nrwl/next/plugins/with-nx').WithNxOptions}
@@ -18,6 +20,6 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
-};
+}
 
-module.exports = withNx(withMDX(nextConfig));
+module.exports = withNx(withMDX(nextConfig))

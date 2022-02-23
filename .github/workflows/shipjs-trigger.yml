@@ -17,7 +17,7 @@ jobs:
           ref: main
       - uses: actions/setup-node@v2
         with:
-          registry-url: "https://registry.npmjs.org"
+          registry-url: 'https://registry.npmjs.org'
       - run: |
           yarn bootstrap
           yarn build
@@ -27,7 +27,7 @@ jobs:
           NPM_AUTH_TOKEN: ${{ secrets.SHIPJS_NPM_AUTH_TOKEN }}
           # SLACK_INCOMING_HOOK: ${{ secrets.SLACK_INCOMING_HOOK }}
 
-      # TODO: replace shipjs publish for monorepo
+      # NOTE: written in ship.config.js --> monorepo.packagesToPublish
       #- name: Publish
       #  run: npm publish
       #  env:

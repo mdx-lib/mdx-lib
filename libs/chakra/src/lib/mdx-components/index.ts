@@ -1,1 +1,1 @@
-export * from './ChakraMDXProvider';
+export * from './ChakraMDXProvider'
