@@ -12898,6 +12898,27 @@ reg-cli@^0.17.0:
     x-img-diff-js "0.3.5"
     yargs-parser "^20.2.9"
 
+reg-cli@^0.17.4:
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/reg-cli/-/reg-cli-0.17.4.tgz#dc11ac83d15d7ad33f9c6f6f8a979a4b39ed0a8d"
+  integrity sha512-3pwi7zNXBlWn89Ja6uPCEthQ37DvvV6HkZ31Wkyz6P4XAgmC7QEQIu1naT5d9xvBfkRfZlP37fufOj4fz+7DYw==
+  dependencies:
+    bluebird "3.7.2"
+    chalk "4.1.2"
+    cli-spinner "0.2.10"
+    cross-spawn "7.0.3"
+    del "6.0.0"
+    glob "7.2.0"
+    img-diff-js "0.5.2"
+    jpeg-js "^0.4.0"
+    lodash "4.17.21"
+    make-dir "3.1.0"
+    md5-file "4.0.0"
+    meow "3.7.0"
+    mustache "4.2.0"
+    x-img-diff-js "0.3.5"
+    yargs-parser "^20.2.9"
+
 reg-gh-app-interface@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/reg-gh-app-interface/-/reg-gh-app-interface-1.2.0.tgz"
