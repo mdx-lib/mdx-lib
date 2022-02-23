@@ -6,6 +6,7 @@
     "bootstrap": "yarn install && nx run-many --target=bootstrap --all",
     "start": "nx serve",
     "build": "nx build",
+    "build:next": "nx build demo",
     "test": "nx run-many --target=test --all",
     "test:e2e": "nx e2e demo-e2e",
     "test:e2e:with-build": "yarn build && nx e2e demo-e2e",
