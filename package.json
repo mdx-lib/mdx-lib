@@ -6,6 +6,7 @@
     "bootstrap": "yarn install && nx run-many --target=bootstrap --all",
     "start": "nx serve",
     "build": "nx build",
+    "build:next": "nx build demo",
     "test": "nx run-many --target=test --all",
     "test:e2e": "nx e2e demo-e2e",
     "test:e2e:with-build": "yarn build && nx e2e demo-e2e",
@@ -29,8 +30,10 @@
     "core-js": "3.21.1",
     "framer-motion": "6.2.7",
     "next": "12.1.0",
+    "prism-react-renderer": "^1.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-player": "^2.9.0",
     "regenerator-runtime": "0.13.9",
     "tslib": "2.3.1"
   },
