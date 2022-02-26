@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
       - run: |
           if [ -f "yarn.lock" ]; then
             yarn install
