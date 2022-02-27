@@ -44,4 +44,6 @@ Thumbs.db
 .env
 .envs
 .envrc
+
+# reg-cli result
 .reg
