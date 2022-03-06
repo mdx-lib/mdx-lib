@@ -8,9 +8,9 @@
 # What's this?
 A library to make MDX more convenient.
 
-### [English docs](https://github.com/mdx-lib/mdx-lib/tree/master/docs/en)
+### [English docs](https://github.com/mdx-lib/mdx-lib/tree/master/libs/chakra/docs/en)
 
-### [Japanese docs](https://github.com/mdx-lib/mdx-lib/tree/master/docs/ja)
+### [Japanese docs](https://github.com/mdx-lib/mdx-lib/tree/master/libs/chakra/docs/ja)
 
 # Sample Image
-<p align="center"><img src="./docs/images/sample.png" alt="mdx-lib"></p>
+<p align="center"><img src="./libs/chakra/docs/images/sample.png" alt="mdx-lib"></p>

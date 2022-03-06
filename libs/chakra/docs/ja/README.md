@@ -25,6 +25,10 @@ yarn add @mdx-lib/chakra
 npm info @mdx-lib/chakra@YOUR_VERSION peerDependencies
 ```
 
+### Update theme
+マークダウンをスタイリングするために以下を参考にtheme.tsを更新して下さい。  
+https://github.com/mdx-lib/mdx-lib/blob/main/apps/demo/theme.ts
+
 ### MDX providerの利用方法
 ```tsx
 import { ChakraMDXProvider } from '@mdx-lib/chakra'
