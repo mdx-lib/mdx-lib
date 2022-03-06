@@ -25,6 +25,10 @@ If it has not been added yet, please install the specified version of peerDepend
 npm info @mdx-lib/chakra@YOUR_VERSION peerDependencies
 ```
 
+### Update theme
+Please update the theme as follows for markdown styling.  
+https://github.com/mdx-lib/mdx-lib/blob/main/apps/demo/theme.ts
+
 ### Add MDX provider
 ```tsx
 import { ChakraMDXProvider } from '@mdx-lib/chakra'
