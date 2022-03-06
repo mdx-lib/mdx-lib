@@ -1,42 +1,16 @@
-# Chakra-ui related libs
+[![Nx](https://img.shields.io/badge/Monorepo-Nx-%23143157)](https://nx.dev)
+[![TypeScript](https://img.shields.io/badge/Code-TypeScript-%233178c6)](https://www.typescriptlang.org)
+[![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)](LICENSE)
 
-## Setup
-### Add package
-```shell
-yarn add @mdx-lib/chakra
-```
+<p align="center"><img src="./docs/images/logo.png" alt="mdx-lib"></p>
+<h1 align="center">MDX-LIB</h1>
 
-### Confirm & Add peerDependencies
-on your machine, check package.json
-```json
-{
-  "name": "@mdx-lib/chakra",
-  "peerDependencies": {
-    "react": "17.0.2",
-    "@mdx-js/react": "^1.6.22",
-    "@chakra-ui/react": "1.7.4"
-  }
-}
-```
+# What's this?
+A library to make MDX more convenient.
 
-```shell
-# or exec below command
-npm info @mdx-lib/chakra@YOUR_VERSION peerDependencies
-```
+### [English docs](https://github.com/mdx-lib/mdx-lib/tree/master/libs/chakra/docs/en)
 
-### Add MDX provider
-```tsx
-import { ChakraMDXProvider } from '@mdx-lib/chakra'
+### [Japanese docs](https://github.com/mdx-lib/mdx-lib/tree/master/libs/chakra/docs/ja)
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <ChakraMDXProvider>
-      <Component {...pageProps} />
-    </ChakraMDXProvider>
-  )
-}
-```
-
-### NOTE
-ChakraMDXProvider was created with reference to [chakra-ui-docs](https://github.com/chakra-ui/chakra-ui-docs).  
-Thanks to the people who made the code.
+# Sample Image
+<p align="center"><img src="./docs/images/sample.png" alt="mdx-lib"></p>
