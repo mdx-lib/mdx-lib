@@ -1,3 +1,5 @@
+import * as React from 'react'
+import { MDXProvider } from '@mdx-js/react'
 import { Alert, AspectRatio, Box, chakra, Kbd } from '@chakra-ui/react'
 import { Anchor } from './anchor'
 import { InlineCode } from './inline-code'
@@ -5,9 +7,7 @@ import { LinkedHeading } from './linked-heading'
 import { Pre } from './pre'
 import { Table, TData, THead } from './table'
 import { VideoPlayer } from './video-player'
-import * as React from 'react'
 import CodeBlock from './codeblock/codeblock'
-import { MDXProvider } from '@mdx-js/react'
 
 // NOTE: The following code was created with reference to https://github.com/chakra-ui/chakra-ui-docs
 // Thanks to the people who made the code :)
