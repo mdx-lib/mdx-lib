@@ -25,7 +25,6 @@
     "@chakra-ui/react": "1.8.6",
     "@emotion/react": "11.8.2",
     "@emotion/styled": "11.8.1",
-    "@next/mdx": "12.1.0",
     "@nrwl/next": "13.8.8",
     "core-js": "3.21.1",
     "framer-motion": "6.2.8",
@@ -40,6 +39,7 @@
   "devDependencies": {
     "@mdx-js/loader": "1.6.22",
     "@mdx-js/react": "1.6.22",
+    "@next/mdx": "12.1.1",
     "@nrwl/cli": "13.8.8",
     "@nrwl/cypress": "13.8.8",
     "@nrwl/eslint-plugin-nx": "13.8.8",
