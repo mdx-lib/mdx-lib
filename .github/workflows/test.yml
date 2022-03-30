@@ -28,7 +28,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Test
-        run: |
-          yarn bootstrap
-          yarn test
+      - name: install
+        run: yarn bootstrap
+
+      - name: test
+        run: yarn test
