@@ -63,7 +63,7 @@ export const ChakraMDXProvider = (props: React.PropsWithChildren<unknown>) => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     <MDXProvider components={MDXComponents}>
-      <main {...props} />
+      <div {...props} />
     </MDXProvider>
   )
 }
