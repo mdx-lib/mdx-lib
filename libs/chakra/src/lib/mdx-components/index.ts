@@ -1,1 +1,2 @@
-export * from './ChakraMDXProvider'
+export { ChakraMDXProvider } from './ChakraMDXProvider'
+export { MDXComponents } from './MDXComponents'
