@@ -70,7 +70,7 @@
     "eslint-plugin-react-hooks": "4.4.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "jest": "27.5.1",
-    "prettier": "2.6.1",
+    "prettier": "2.6.2",
     "react-test-renderer": "18.0.0",
     "reg-cli": "0.17.7",
     "reg-keygen-git-hash-plugin": "0.11.1",
