@@ -1,7 +1,7 @@
 {
   "root": true,
   "ignorePatterns": ["**/*"],
-  "plugins": ["@nrwl/nx", "import", "unused-imports"],
+  "plugins": ["@nrwl/nx", "unused-imports"],
   "rules": {
     "no-console": ["warn"],
     "no-unused-vars": "off", // or "@typescript-eslint/no-unused-vars": "off",
