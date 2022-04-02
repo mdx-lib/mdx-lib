@@ -1,3 +1,14 @@
+## [0.0.2-alpha.2](https://github.com/mdx-lib/mdx-lib/compare/v0.0.2-alpha.1...v0.0.2-alpha.2) (2022-04-02)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#127](https://github.com/mdx-lib/mdx-lib/issues/127)) ([e1a8fdc](https://github.com/mdx-lib/mdx-lib/commit/e1a8fdcdc033bcc2b2cc4df952991ded7036b249))
+* **deps:** update react monorepo to v18 ([#133](https://github.com/mdx-lib/mdx-lib/issues/133)) ([139c00d](https://github.com/mdx-lib/mdx-lib/commit/139c00d81a93a120702a67f4d7a269a7ee55da23))
+* README.md ([#126](https://github.com/mdx-lib/mdx-lib/issues/126)) ([515bfc1](https://github.com/mdx-lib/mdx-lib/commit/515bfc14b39ec94c6ebbc7590f559bb5a4ecb7ca))
+
+
+
 ## [0.0.2-alpha.1](https://github.com/mdx-lib/mdx-lib/compare/v0.0.1-alpha.4...v0.0.2-alpha.1) (2022-03-13)
 
 
