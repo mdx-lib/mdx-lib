@@ -49,7 +49,7 @@
     "@nrwl/tao": "13.9.6",
     "@nrwl/web": "13.9.6",
     "@nrwl/workspace": "13.9.6",
-    "@testing-library/react": "12.1.4",
+    "@testing-library/react": "13.0.0",
     "@testing-library/react-hooks": "7.0.2",
     "@types/jest": "27.4.1",
     "@types/mdx-js__react": "1.5.5",
