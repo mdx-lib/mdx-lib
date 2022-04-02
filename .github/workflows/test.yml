@@ -1,8 +1,8 @@
-name: Test
+name: Lint Test
 on: [push]
 
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
 
     strategy:
@@ -15,7 +15,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Test
+      - name: Test (lint / build / jest)
         run: |
+          yarn
           yarn bootstrap
+          yarn lint
+          yarn build
           yarn test

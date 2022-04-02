@@ -15,5 +15,5 @@ A library to make MDX more convenient.
 # Sample Image
 <p align="center"><img src="./libs/chakra/docs/images/sample.png" alt="mdx-lib"></p>
 
-# Sponsored by
+# Powered by
 [![alt text](apps/demo/public/powered-by-vercel.svg)](https://vercel.com?utm_source=mdx-lib&utm_campaign=oss)

@@ -1,14 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const withNx = require('@nrwl/next/plugins/with-nx')
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
-  options: {
-    // TODO: when esm available in next.config.js, add remark-gfm as plugin
-    remarkPlugins: [],
-    rehypePlugins: [],
-    providerImportSource: '@mdx-js/react',
-  },
-})
+const withMDX = require('@next/mdx')()
 
 /**
  * @type {import('@nrwl/next/plugins/with-nx').WithNxOptions}
