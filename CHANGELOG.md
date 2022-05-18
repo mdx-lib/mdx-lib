@@ -1,3 +1,19 @@
+## [0.0.2-alpha.3](https://github.com/mdx-lib/mdx-lib/compare/v0.0.2-alpha.2...v0.0.2-alpha.3) (2022-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#138](https://github.com/mdx-lib/mdx-lib/issues/138)) ([78ce902](https://github.com/mdx-lib/mdx-lib/commit/78ce9024f1d8e4fee03b4b3ec1d5e934915106c3))
+* **deps:** update dependency @chakra-ui/react to v2 ([#147](https://github.com/mdx-lib/mdx-lib/issues/147)) ([18772a5](https://github.com/mdx-lib/mdx-lib/commit/18772a5ea8ca1fafb632e13e79762d22e8d1d3c3))
+* test environment ([#149](https://github.com/mdx-lib/mdx-lib/issues/149)) ([bc3b904](https://github.com/mdx-lib/mdx-lib/commit/bc3b904c1ee957df5c23a599ceee26a992ef9016))
+
+
+### Features
+
+* update styles ([#148](https://github.com/mdx-lib/mdx-lib/issues/148)) ([ac7991b](https://github.com/mdx-lib/mdx-lib/commit/ac7991b7ec901506921ff5991bb3ccd8b5145d9e))
+
+
+
 ## [0.0.2-alpha.2](https://github.com/mdx-lib/mdx-lib/compare/v0.0.2-alpha.1...v0.0.2-alpha.2) (2022-04-02)
 
 
