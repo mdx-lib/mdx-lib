@@ -13,7 +13,7 @@ function CodeBlock(props: { children: React.ReactElement }) {
 
   return (
     <Box position='relative' zIndex='0'>
-      <CodeContainer px='0' overflow='hidden'>
+      <CodeContainer>
         <Highlight
           codeString={rawCode}
           language={language}
