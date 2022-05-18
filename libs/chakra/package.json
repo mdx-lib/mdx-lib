@@ -1,6 +1,6 @@
 {
   "name": "@mdx-lib/chakra",
-  "version": "0.0.2-alpha.2",
+  "version": "0.0.2-alpha.3",
   "description": "A collection of libraries to make MDX more convenient",
   "homepage": "https://github.com/mdx-lib/mdx-lib#readme",
   "scripts": {
