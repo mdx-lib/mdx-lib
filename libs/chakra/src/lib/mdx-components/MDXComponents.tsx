@@ -26,13 +26,7 @@ export const MDXComponents = {
     return <CodeBlock {...props} />
   },
   kbd: Kbd,
-  br: ({ reset, ...props }: { reset: boolean; props: unknown }) => (
-    <Box
-      as={reset ? 'br' : undefined}
-      height={reset ? undefined : '24px'}
-      {...props}
-    />
-  ),
+  br: () => <br/>,
   table: Table,
   th: THead,
   td: TData,
