@@ -18,7 +18,8 @@
     "lint": "nx run-many --target=lint --all",
     "lint:fix": "nx run-many --target=lint:fix --all",
     "format": "nx format:write --all",
-    "release": "shipjs prepare"
+    "release": "shipjs prepare",
+    "clear:cache": "nx clear-cache"
   },
   "private": true,
   "dependencies": {
