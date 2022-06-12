@@ -1,13 +1,13 @@
-import { chakra, useColorModeValue } from '@chakra-ui/react'
+import { chakra, HTMLChakraProps, useColorModeValue } from '@chakra-ui/react';
 import * as React from 'react'
 
-export const Table = (props: unknown) => (
+export const Table = (props: HTMLChakraProps<'table'>) => (
   <chakra.div overflowX='auto'>
     <chakra.table textAlign='left' mt='32px' width='full' {...props} />
   </chakra.div>
 )
 
-export const THead = (props: unknown) => (
+export const THead = (props: HTMLChakraProps<'th'>) => (
   <chakra.th
     bg={useColorModeValue('gray.50', 'whiteAlpha.100')}
     fontWeight='semibold'
@@ -17,7 +17,7 @@ export const THead = (props: unknown) => (
   />
 )
 
-export const TData = (props: unknown) => (
+export const TData = (props: HTMLChakraProps<'td'>) => (
   <chakra.td
     p={2}
     borderTopWidth='1px'

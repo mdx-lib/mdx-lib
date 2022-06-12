@@ -1,6 +1,6 @@
-import { chakra } from '@chakra-ui/react'
+import { chakra, HTMLChakraProps } from '@chakra-ui/react';
 import * as React from 'react'
 
-export const Pre = (props: unknown) => (
-  <chakra.div my='2em' borderRadius='sm' {...props} />
+export const Pre = (props: HTMLChakraProps<'pre'>) => (
+  <chakra.pre my='2em' borderRadius='sm' {...props} />
 )
