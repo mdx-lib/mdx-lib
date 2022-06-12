@@ -1,3 +1,12 @@
+## [0.0.2-alpha.4](https://github.com/mdx-lib/mdx-lib/compare/v0.0.2-alpha.3...v0.0.2-alpha.4) (2022-06-12)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#152](https://github.com/mdx-lib/mdx-lib/issues/152)) ([87d4df8](https://github.com/mdx-lib/mdx-lib/commit/87d4df8e8af991d2321219143d31021a7fddceb8))
+
+
+
 ## [0.0.2-alpha.3](https://github.com/mdx-lib/mdx-lib/compare/v0.0.2-alpha.2...v0.0.2-alpha.3) (2022-05-18)
 
 
